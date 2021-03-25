@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Coffees(chaudsid)</title>
+   <style type="text/css">
+       h1,h3{
+           color: brown;
+       }
+       div{
+           width: 100%;
+           border: 3px solid brown;
+       }
+   </style>
+</head>
+<body bgcolor="#b5651d">
+<img src="./images/logo.png" width="100%" height="350px" id="logo">
+<h1 align="center">Welcome to Tim Horton's</h1>
+<div align="center">
+   <h3>Give some numbers</h3>
+   <form action="./a.php" method="post">
+       <table>
+           <tr>
+               <td>Number of Coffees:</td>
+               <td><input type="number" name="coffee"></td>
+           </tr>
+           <tr>
+               <td>Size:</td>
+               <td>
+                   <select name="size">
+
+                       <option value="small">Small</option>
+                       <option value="medium">Medium</option>
+
+                       <option value="large">Large</option>
+                       <option value="extralarge">Extra-Large</option>
+
+                   </select>
+               </td>
+           </tr>
+           <tr>
+               <td>How many creams?</td>
+               <td><input type="number" name="creams"></td>
+           </tr>
+           <tr>
+
+               <td>How many sugars</td>
+
+
+               <td><input type="number" name="sugar"></td>
+           </tr>
+           <tr>
+               <td><input type="submit" value="Order Coffee"></td>
+           </tr>
+       </table>
+   </form>
+</div>
+</body>
+</html>
